@@ -5,6 +5,7 @@ int main() {
     int i;
 
     printf("Enter a value: ");
+    // put & for reading basic variable types other than char
     scanf("%s %d", str, &i);
     printf("You entered: %s %d", str, i);
 

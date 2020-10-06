@@ -7,8 +7,8 @@ int main() {
         FACEBOOK,
         XEROX,
         YAHOO,
-        EBAY,
-        MICROSOFT
+        EBAY = 10,
+        MICROSOFT  // 11
     };
 
     enum Company xerox = XEROX;
@@ -16,6 +16,7 @@ int main() {
     enum Company ebay = EBAY;
 
     printf("%d, %d, %d\n", xerox, google, ebay);
+    // 2, 0, 10
 
     return 0;
 }
