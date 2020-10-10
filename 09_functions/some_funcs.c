@@ -64,7 +64,7 @@ float square(float a) {
 
 
 float sqrt(float a) {
-    long e = 1e-8;
+    long e = 1e-5;
     long target_num;
 
     if (a < 0) {
